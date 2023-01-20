@@ -5,7 +5,7 @@ namespace GenericsTestMaximum
 {
     internal class Program
     {
-        public static double MaximumIntegerNumber(double firstValue, double secondValue, double thirdValue)
+        public static string MaximumIntegerNumber(string firstValue, string secondValue, string thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0)
             {
@@ -25,7 +25,7 @@ namespace GenericsTestMaximum
         {
             Console.WriteLine("Welcome to program for Generics Test Maximum of Three number");
             Console.WriteLine("Enter Three Numbers : 50.1,90.3,10.7");
-            Console.WriteLine(MaximumIntegerNumber(50.1, 90.3, 10.7));
+            Console.WriteLine(MaximumIntegerNumber("50.1", "90.3", "10.7"));
 
         }
     }
